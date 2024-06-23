@@ -1,0 +1,458 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Exo 2', sans-serif;
+    font-family: 'Hanuman', serif;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: auto;
+   
+    
+}
+
+.menu-left{
+    width: 15%;
+    height: auto;
+    background-color: #F5F5F5;
+    position: sticky;
+    top: 0;
+    
+}
+.content-right{
+    width: 82%;
+    margin-left: 2%;
+    margin-right: 1%;
+    height: auto;
+    /* background-color: blue; */
+    
+}
+.top{
+    width: 100%;
+    height: 90px;
+    /* background-color: red; */
+    display: flex;
+}
+.menu-left .top .logo{
+    width: 40%;
+    height: 100%;
+    /* background-color: black; */
+    padding: 10px;
+}
+.menu-left .top .logo img{
+    height: 100%;
+    float:right;
+}
+.menu-left .top .title-business{
+    width: 60%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.menu-left .top .title-business .top{
+    width: 100%;
+    height: 50%;
+    /* background-color: orange; */
+}
+.menu-left .top .title-business .top small{
+    padding-top: 18px;
+    color: black;
+    font-size: 19px;
+}
+.menu-left .top .title-business .bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+}
+.menu-left .top .title-business .bottom p{
+    font-size: 25px;
+}
+
+.search{
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding: 7px;
+    margin-left: 8%;
+}
+.search:is(:focus-visible){
+    border-top: 2px solid blue;
+    border-bottom: 2px solid blue;
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+}
+ul{
+    margin-top: 10px;
+    list-style-type: none;
+    
+}
+ul li{
+    text-align: center;
+    padding: 5px;
+    border-radius: 6px;
+    margin: 15px;
+}
+ul li:hover:not(.active){
+    background-color: gray;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+.active{
+    background-color: red;
+}
+
+.content-right .big-photo img{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.content-right .big-photo{
+    position: relative;
+}
+.content-right .big-photo small{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    color: white;
+}
+.content-right .big-photo h2{
+    position: absolute;
+    top: 40%;
+    color: white;
+}
+
+.content-right .big-photo button{
+    width: 110px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 60%;
+    left: 0%;
+    margin-left: 3%;
+}
+.content-right .small-photo{
+    width: 400px;
+    border-radius: 6px;
+}
+.con-3 .card1{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: 0.6s;
+    box-shadow: 0 19px 38px rgba(0,0,0,0.10), 0 15px 12px rgba(0,0,0,0.10);
+   
+    
+}
+.con-3 .card1:hover{
+    transform: scale(1.04);
+    transition: 0.6s;
+    cursor: pointer;
+}
+.con-3 .card1 img{
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 15px 15px 0px 0px;
+}
+.con-3 .card1 .box-title{
+    width: 100%;
+    height: 40%;
+    /* background-color: red; */
+    padding: 10px;
+
+} 
+.con-3 .card1 .box-title .box-decription{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.con-3 .card1 .box-title .box-decription span{
+    font-size: 10px;
+    color: red;
+}
+.con-3 .card1 .box-title .box-decription p{
+    font-size: 15px;
+}
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: black;
+}
+.res-menu{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    box-shadow:  0px 0px 10px;
+    display: none;
+}
+.res-menu img{
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+.res-menu i{
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+/* @@@@@@@ Footer @@@@@@@@@@ */
+
+.footer{
+    width: 100%;
+    height: 800px;
+    background-color: black;
+}
+.footer .top{
+    width: 100%;
+    height: 400px;
+    background-color: red;
+   
+
+}
+.box-1{
+    width: 600px;
+    height: 400px;
+    /* background-color: blue; */
+}
+.box-1 .top{
+    width: 100%;
+    height: 50%;
+   
+    display: flex;
+    justify-content: center;
+}
+.box-1 .top img{
+    height: 180px;
+    margin-top: 40px;
+}
+.box-1 .bottom{
+    width: 100%;
+    height: 50%;
+    /* background-color: orange; */
+}
+.box-1 .bottom h1{
+    text-align: center;
+    padding-top: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.box-1 .bottom p{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+.box-1 .bottom .icon i{
+    margin-top: -10px;
+    padding:0px 6px 6px 6px;
+    font-size: 30px;
+    color: white;
+}
+.box-1 .bottom .icon{
+   text-align: center;
+}
+.footer .bottom-footer{
+    width: 100%;
+    height: 400px;
+    /* background-color: black; */
+}
+.footer .bottom-footer .h_1{
+    font-size: 30px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 180px;
+    padding-bottom: 30px;
+}
+.footer .bottom-footer a{
+   padding-left: 180px;
+   color: white;
+}
+.footer .bottom-footer .h_2{
+    font-size: 30px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 180px;
+    padding-bottom: 30px;
+}
+.footer .bottom-footer .footer-a{
+    width: 100%;
+    height: 250px;
+    /* background-color: red; */
+  
+}
+.footer .bottom-footer .footer-a .sub-footer{
+    width: 40%;
+    height: 100%;
+    /* background-color:black; */
+    margin-left: 80px;
+    
+}
+.footer .bottom-footer .footer-a p{
+    text-align: center;
+    color: white;
+    
+}
+.footer .bottom-footer .h_3{
+    font-size: 30px;
+    color: white;
+    padding-top: 40px;
+    padding-left: 180px;
+    padding-bottom: 30px;
+}
+.footer .bottom-footer #p_1{
+    color: white;
+    padding-left: 180px;
+}
+.footer .bottom-footer .footer-a h3{
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 17px;
+}
+
+
+
+/* @@@@@@@@@ Footer @@@@@@@@@@ */
+
+/*responsive code*/
+/*mobile phone*/
+@media (max-width: 557px) {
+    .content-right h3{
+        font-size: 19px;
+    }
+    .content-right .big-photo h2{
+        font-size: 15px;
+    }
+    .con-3 .card1 .box-title .box-decription p{
+        font-size: 13px;
+    }
+    .content-right{
+        margin-left: 11%;
+    }
+     .col-3{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin:  20px 0px 20px 0px;
+     }
+      .menu-left{
+        display: none;
+      }
+    
+     .footer{
+        display: none;
+     }
+     .res-menu{
+        display: block;
+        position: fixed;
+        z-index: 1;
+     }
+     .small-photo{
+        width: 200px;
+        margin-left: -20px;
+     }
+     
+      
+}
+
+
+/*ipad*/
+@media (min-width: 558px) and (max-width: 991px) {
+    .content-right h3{
+        font-size: 19px;
+    }
+    .content-right .big-photo h2{
+        font-size: 15px;
+    }
+    .con-3 .card1 .box-title .box-decription p{
+        font-size: 13px;
+    }
+    .content-right{
+        margin-left: 11%;
+    }
+     .col-3{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin:  20px 0px 20px 0px;
+     }
+      .menu-left{
+        display: none;
+      }
+    
+     .footer{
+        display: none;
+     }
+     .res-menu{
+        display: block;
+        position: fixed;
+        z-index: 1;
+     }
+     .small-photo{
+        width: 200px;
+        margin-left: -20px;
+     }
+  
+      
+} 
+
+/*ipad pro*/
+@media (min-width: 992px) and (max-width: 1199px) {
+    .content-right h3{
+        font-size: 19px;
+    }
+    .content-right .big-photo h2{
+        font-size: 15px;
+    }
+    .con-3 .card1 .box-title .box-decription p{
+        font-size: 13px;
+    }
+    .content-right{
+        margin-left: 11%;
+    }
+     .col-3{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin:  20px 0px 20px 0px;
+     }
+    
+     .footer{
+        display: none;
+     }
+     .res-menu{
+        display: block;
+        position: fixed;
+        z-index: 1;
+     }
+     .menu-left{
+        display: none;
+     }
+     .small-photo{
+        width: 200px;
+        margin-left: -20px;
+     }
+    
+      
+    
+} 
+
+/*laptop*/
+@media (min-width: 1200px)  {
+
+    
+}

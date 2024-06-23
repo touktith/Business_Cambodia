@@ -1,0 +1,6 @@
+===================Underlight table
+
+-table_slide(id,title,date,title_button,photo)
+-table_news(id,date,publisher,title,title_detail1,title_detail2, thumnail_card,thumnail_detail1,
+thumnail_detail2,thumnail_detail3,thumnail_detail4)
+table_types-photo(id,photo)
